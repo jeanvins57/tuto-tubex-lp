@@ -1,0 +1,3 @@
+/home/jvk/Bureau/IAMOOC/A. Intervals and contractors/build/CMakeFiles/rebuild_cache.dir
+/home/jvk/Bureau/IAMOOC/A. Intervals and contractors/build/CMakeFiles/edit_cache.dir
+/home/jvk/Bureau/IAMOOC/A. Intervals and contractors/build/CMakeFiles/my_project.dir
