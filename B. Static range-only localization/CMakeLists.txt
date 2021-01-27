@@ -30,9 +30,7 @@ cmake_minimum_required(VERSION 3.0.2)
   message(STATUS "Found Tubex version ${TUBEX_VERSION}")
 
 # Compilation
-  file(GLOB_RECURSE SRC_FILES ${PROJECT_SOURCE_DIR} /src/*.cpp)
-
-  add_executable(${PROJECT_NAME} ../src/*.cpp)
+  add_executable(${PROJECT_NAME} ../src/main.cpp)
   target_compile_options(${PROJECT_NAME} PUBLIC ${TUBEX_CXX_FLAGS})
   target_include_directories(${PROJECT_NAME} SYSTEM PUBLIC ${TUBEX_INCLUDE_DIRS} ${EIGEN3_INCLUDE_DIRS})
   target_link_libraries(${PROJECT_NAME} PUBLIC ${TUBEX_LIBRARIES} Ibex::ibex ${TUBEX_LIBRARIES} Ibex::ibex)

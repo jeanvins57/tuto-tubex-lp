@@ -25,7 +25,7 @@ int main() {
 	// Set of feasible positions for x: x ϵ [-∞,∞]×[-∞,∞]
 	IntervalVector x(2);
 
-	CtcFunction ctc_dist(Function("x[2]", "b[2]", "r", "sqrt((x[0]-b[0])^2+(x[1]-b[1])^2)-r"));
+	CtcFunction ctc_dist(Function("x[2]", "b[2]", "r", "sqrt((x[0]-b[0])^2+(x[1]-b[1])^2)-r")); // B1.
 
 	ContractorNetwork c;
 	for(int i = 0 ; i < v_b.size() ; i++)
@@ -43,7 +43,7 @@ int main() {
 	for(int i = 0 ; i < nb_landmarks ; i++)
 		fig.draw_ring(v_b[i][0].mid(), v_b[i][1].mid(), v_d[i], "gray");
 
-	fig.draw_box(x, "#2c3e50[#2980b9]"); // estimated position
+	fig.draw_box(x); // estimated position
 	fig.draw_vehicle(x_truth, 0.7); // last param: vehicle size
 	fig.show();
 
