@@ -1,3 +1,0 @@
-/home/jvk/Bureau/tuto-tubex-lp/D. Building our own contractor/build/CMakeFiles/rebuild_cache.dir
-/home/jvk/Bureau/tuto-tubex-lp/D. Building our own contractor/build/CMakeFiles/edit_cache.dir
-/home/jvk/Bureau/tuto-tubex-lp/D. Building our own contractor/build/CMakeFiles/Lesson_D.dir

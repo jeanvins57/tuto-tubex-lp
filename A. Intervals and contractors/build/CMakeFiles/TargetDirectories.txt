@@ -1,3 +1,0 @@
-/home/jvk/Bureau/tuto-tubex-lp/A. Intervals and contractors/build/CMakeFiles/rebuild_cache.dir
-/home/jvk/Bureau/tuto-tubex-lp/A. Intervals and contractors/build/CMakeFiles/edit_cache.dir
-/home/jvk/Bureau/tuto-tubex-lp/A. Intervals and contractors/build/CMakeFiles/my_project.dir
