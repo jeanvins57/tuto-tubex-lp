@@ -1,4 +1,4 @@
-build
+build/*
 .ressources
 .sent
 .vscode
